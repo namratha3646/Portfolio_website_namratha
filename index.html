@@ -3,7 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name-"viewport" content="width=device-width, initial-scale-1.0">
-    <title>My Portfolio |Namratha</title>
+     <!-- SEO Meta Tags -->
+    <meta name="description" content="Full stack developer specializing in React, Node.js, and modern web technologies. Available for freelance projects and collaborations.">
+    <meta name="keywords" content="Namratha, Portfolio, Web Developer, React, Node.js, JavaScript, HTML, CSS, Freelance Developer">
+    <meta name="author" content="Namratha">
+    <title>My Portfolio | Namratha</title>
+    <!-- Open Graph Meta Tags for Social Media Sharing -->
+    <meta property="og:title" content="My Portfolio | Namratha">
+    <meta property="og:description" content="Full stack developer specializing in React, Node.js, and modern web technologies. Available for freelance projects and collaborations.">
+    <meta property="og:image" content="images/profile.jpeg">
+    <meta property="og:url" content="c:\Users\Admin\Desktop\Portfolio_website_namratha\index.html">
+    <meta property="og:type" content="website">
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="My Portfolio | Namratha">
+    <meta name="twitter:description" content="Full stack developer specializing in React, Node.js, and modern web technologies. Available for freelance projects and collaborations.">
+    <meta name="twitter:image" content="images/profile.jpeg">
+    <!--Favicon-->
+    <link rel="icon" href="./images/favicon.png?v=3" type="image/png">
 </head>
 <body>
 
@@ -25,17 +42,46 @@
     <I-- ABOUT SECTION -->
     <section id="about">
     <h2>About Me</h2>
-    <img src="profile.jpeg" alt ="profile photo of Namratha" width="200">
+    <figure class="profile-figure">
+        <img src="images/profile.jpeg" alt="Soumik Datta profile photo" width="300">
+        <figcaption>Namratha Anil — Web Developer</figcaption>
+    </figure>
+    <p>Contact - 8904873646 </p>
+    <p>Email - namratha3646@gmail.com</p>
+    <p>Country - India</p>
     <p>I love building things on the web. Currently learning HTML, CSS, React.</p>
+    
     </section>
 
     <!--Skills section-->
     <section id="skills">
         <h2>My skills</h2>
-        <ul>
-            <li>Html</li>
-            <li>CSS</li>
-        </ul>
+<table border="1">
+    <tr>
+        <th>Technology</th>
+        <th>Proficiency</th>
+    </tr>
+
+    <tr>
+        <td>HTML5</td>
+        <td>Begineer</td>
+    </tr>
+
+    <tr>
+        <td>CSS3</td>
+        <td>Begineer</td>
+    </tr>
+
+    <tr>
+        <td>Python</td>
+        <td>Intermediate</td>
+    </tr>
+
+    <tr>
+        <td>React</td>
+        <td>Begineer</td>
+    </tr>
+</table>
     </section>
 
     <!--PROJECTS SECTION -->
@@ -46,6 +92,7 @@
             <p>Description of project 1</p>
             <a href="#">View Project</a>
         </div>
+         <iframe width="300" height="169" src="https://www.youtube.com/embed/tqjJrXd27m4" title="YouTube video player" frameborder="0" allowfullscreen sandbox="allow-same-origin allow-scripts"></iframe>
     </section>
 
 
@@ -91,9 +138,8 @@
         <textarea id="message" name="message" rows="5"
                   placeholder="Tell me about your project..." required></textarea>
  
-        <button type="submit" aria-label="Submit button">Send Message 🚀</button>
+         <button type="submit" aria-label="Submit button">Send Message 🚀</button>
 </section>
-
 <!-- FOOTER -->
 <footer>
     <p>&copy; 2026 Namratha. All rights reserved.</p>
